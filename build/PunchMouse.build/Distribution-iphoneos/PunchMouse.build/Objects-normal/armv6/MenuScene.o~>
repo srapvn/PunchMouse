@@ -1,0 +1,7 @@
+/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m: In function '-[MenuScene alertView:clickedButtonAtIndex:]':
+/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:56: warning: 'MenuScene' may not respond to '-postScore'
+/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:56: warning: (Messages without a matching method signature
+/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:56: warning: will be assumed to return 'id' and accept
+/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:56: warning: '...' as arguments.)
+/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m: In function '-[MenuScene onTopScores:]':
+/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:108: warning: 'MenuScene' may not respond to '-requestScore'

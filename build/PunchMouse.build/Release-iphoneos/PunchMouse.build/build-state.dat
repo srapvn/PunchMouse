@@ -1,0 +1,1828 @@
+TPunchMouse
+v7
+r0
+t288891777.031810
+cCheck dependencies
+cCpResource build/Release-iphoneos/PunchMouse.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Info.plist Resources/Info.plist
+cCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Default.png Resources/Default.png
+cCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Icon.png Resources/Icon.png
+cCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/mouseicon.png Resources/mouseicon.png
+cCpResource build/Release-iphoneos/PunchMouse.app/JuOb.wav Resources/JuOb.wav
+cCpResource build/Release-iphoneos/PunchMouse.app/Uhhh.wav Resources/Uhhh.wav
+cCpResource build/Release-iphoneos/PunchMouse.app/background.jpg Resources/background.jpg
+cCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/head.png Resources/head.png
+cCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/cheese.png Resources/cheese.png
+cCpResource build/Release-iphoneos/PunchMouse.app/Chesta.wav Resources/Chesta.wav
+cCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/shaker.png Resources/shaker.png
+cCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/blower.png Resources/blower.png
+cCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/pixel.png Resources/pixel.png
+cCpResource build/Release-iphoneos/PunchMouse.app/hide.wav Resources/hide.wav
+cCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/menuicon.png Resources/menuicon.png
+cCpResource build/Release-iphoneos/PunchMouse.app/claphand.m4a Resources/claphand.m4a
+cCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/headblue.png Resources/headblue.png
+cCopyPlistFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Entitlements.plist Entitlements.plist
+cProcessPCH /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-alvrkeymkxmgodgbuzmeskuhojjl/PunchMouse_Prefix.pch.gch PunchMouse_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/main.o /Users/khanhnguyen/Documents/PunchMouse/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/PunchMouseAppDelegate.o /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/PunchMouse.o /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/MenuScene.o /Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/PunchMouse normal armv6
+cGenerateDSYMFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app.dSYM /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/PunchMouse
+cProcessProductPackaging "/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/74AD61E1-E4D5-480F-9603-BB0556330BC4.mobileprovision" /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision
+cTouch /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse.xcent
+cCodeSign /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk
+c000000004ABDAC790000000000000110
+t1253944441
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist
+c000000004A0BA04000000000000000DD
+t1242275904
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+c000000004A0BA04000000000000001E5
+t1242275904
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004A12213B000000000001B0E0
+t1242702139
+s110816
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004A0BB36E00000000000000EB
+t1242280814
+s235
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004A12212500000000002CE5F0
+t1242702117
+s2942448
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004A0DADB90000000000000A22
+t1242410425
+s2594
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
+c000000004A0BAD8C000000000000F342
+t1242279308
+s62274
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A121EB900000000003D72A0
+t1242701497
+s4027040
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004A0BAD610000000000002384
+t1242279265
+s9092
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A121FF90000000000396540
+t1242701817
+s3761472
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAECB0000000000001355
+t1242279627
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004A0BB37300000000000064FD
+t1242280819
+s25853
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004A0BB3730000000000001F45
+t1242280819
+s8005
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004A122138000000000003C260
+t1242702136
+s246368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004A0BB177000000000000094F
+t1242280311
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004A0BB1770000000000000A61
+t1242280311
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004A0BB1770000000000009369
+t1242280311
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004A0BB1770000000000002576
+t1242280311
+s9590
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004A1220EF00000000000380E0
+t1242702063
+s229600
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004A12211900000000001CA4E0
+t1242702105
+s1877216
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBD000000000000075E
+t1242349245
+s1886
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A1221FD00000000019A6110
+t1242702333
+s26894608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/CommonCrypto/CommonDigest.h
+c000000004A0BA2AE0000000000002500
+t1242276526
+s9472
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/math.h
+c000000004A0BA2B100000000000004F1
+t1242276529
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/objc/objc.h
+c000000004A0BA80F0000000000000A27
+t1242277903
+s2599
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/stdlib.h
+c000000004A0BA3140000000000002AA4
+t1242276628
+s10916
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/string.h
+c000000004A0BA3140000000000001731
+t1242276628
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/sys/time.h
+c000000004A0BA7810000000000001E17
+t1242277761
+s7703
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/lib/libz.dylib
+c000000004A121D1A0000000000022540
+t1242701082
+s140608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
+c000000004ABFDAFE0000000000000110
+t1254087422
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+c000000004ABDB88400000000000000DD
+t1253947524
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+c000000004ABDB88400000000000001E5
+t1253947524
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004ABDBEB0000000000001AD10
+t1253949104
+s109840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004ABDBEAE00000000000000EB
+t1253949102
+s235
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004ABDBC2D00000000002E0B30
+t1253948461
+s3017520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004ABDBC030000000000000A22
+t1253948419
+s2594
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
+c000000004ABDBB57000000000000F342
+t1253948247
+s62274
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDBA1300000000005F4900
+t1253947923
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004ABDBA130000000000002384
+t1253947923
+s9092
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDBDCF0000000000501370
+t1253948879
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDBDA40000000000001355
+t1253948836
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004ABDBC8800000000000064FD
+t1253948552
+s25853
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004ABDBC880000000000001F45
+t1253948552
+s8005
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004ABDBC8C000000000003AB60
+t1253948556
+s240480
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004ABDC728000000000000094F
+t1253951272
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004ABDC7280000000000000A61
+t1253951272
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004ABDC7280000000000009369
+t1253951272
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004ABDC7280000000000002A42
+t1253951272
+s10818
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004ABDC731000000000003C1A0
+t1253951281
+s246176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004ABDC85900000000001C27F0
+t1253951577
+s1845232
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDD0D10000000000000788
+t1253953745
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDD2250000000001B3F450
+t1253954085
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+c000000004ABDAF420000000000002500
+t1253945154
+s9472
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/math.h
+c000000004ABDAF4A00000000000004F1
+t1253945162
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/objc/objc.h
+c000000004ABDB4D20000000000000A2F
+t1253946578
+s2607
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/stdlib.h
+c000000004ABDAF790000000000002AA4
+t1253945209
+s10916
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/string.h
+c000000004ABDAF790000000000001731
+t1253945209
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/sys/time.h
+c000000004ABDB4790000000000001E17
+t1253946489
+s7703
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/lib/libz.dylib
+c000000004ABDB4BC00000000000335C0
+t1253946556
+s210368
+
+N/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.h
+c000000004B82E30700000000000003CE
+t1266868999
+s974
+i"PunchMouse.h"
+i"cocos2d.h"
+i<Foundation/Foundation.h>
+i"cocoslive.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m
+c000000004B82E1D40000000000003049
+t1266868692
+s12361
+i<UIKit/UIKit.h>
+i"MenuScene.h"
+i"cocos2d.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.h
+c000000004B7EC4440000000000000567
+t1266598980
+s1383
+i"cocos2d.h"
+i"CocosDenshion.h"
+i"CDAudioManager.h"
+i<AVFoundation/AVFoundation.h>
+i<CoreAudio/CoreAudioTypes.h>
+i"MenuScene.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m
+c000000004B82DA770000000000005D38
+t1266866807
+s23864
+i<UIKit/UIKit.h>
+i"PunchMouse.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm
+c000000004B72C1930000000000004467
+t1265811859
+s17511
+i<UIKit/UIKit.h>
+i"PunchMouse.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.h
+c000000004B7113B10000000000000136
+t1265701809
+s310
+i<UIKit/UIKit.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m
+c000000004B72894300000000000009B4
+t1265797443
+s2484
+i"PunchMouseAppDelegate.h"
+i"cocos2d.h"
+i"PunchMouse.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/Entitlements.plist
+c000000004B7D431F00000000000000E1
+t1266500383
+s225
+
+N/Users/khanhnguyen/Documents/PunchMouse/PunchMouse_Prefix.pch
+c000000004B7113B100000000000000B7
+t1265701809
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/AgonPackage.bundle
+c000000004B71C50500000000000000AA
+t1265747205
+s170
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/Chesta.wav
+c000000004B7246560000000000017372
+t1265780310
+s95090
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/Default.png
+c000000004B7517B50000000000042E03
+t1265964981
+s273923
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/ElephMouse.jpg
+c000000004B71A6690000000000007629
+t1265739369
+s30249
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/Icon.png
+c000000004B719AE80000000000003567
+t1265736424
+s13671
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/JuOb.wav
+c000000004B717073000000000000D190
+t1265725555
+s53648
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/Uhhh.wav
+c000000004B74146700000000000158B4
+t1265898599
+s88244
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/background.jpg
+c000000004B71AC8B0000000000007CB5
+t1265740939
+s31925
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/blower.png
+c000000004B7444BD00000000000020C4
+t1265910973
+s8388
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/cheese.png
+c000000004B71B61E0000000000001A3C
+t1265743390
+s6716
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/claphand.m4a
+c000000004B7C0B350000000000004CD6
+t1266420533
+s19670
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/fps_images.png
+c000000004B7113B1000000000000183B
+t1265701809
+s6203
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/head.png
+c000000004B71B43F0000000000001D45
+t1265742911
+s7493
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/headblue.png
+c000000004B7AD7E90000000000001F69
+t1266341865
+s8041
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/hide.wav
+c000000004B7404BD000000000000528A
+t1265894589
+s21130
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/menuicon.png
+c000000004B750E3D0000000000000D5A
+t1265962557
+s3418
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/mouseicon.png
+c000000004B716D150000000000001F06
+t1265724693
+s7942
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/pixel.png
+c000000004B73D94D0000000000000355
+t1265883469
+s853
+
+N/Users/khanhnguyen/Documents/PunchMouse/Resources/shaker.png
+c000000004B7267D5000000000000185D
+t1265788885
+s6237
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/MenuScene.o
+t1267198970
+s76912
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/PunchMouse.LinkFileList
+c000000004B7440750000000000000210
+t1265909877
+s528
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/PunchMouse.o
+t1267198970
+s81820
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/PunchMouseAppDelegate.o
+t1267198968
+s36144
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/main.o
+t1266484101
+s6724
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse.xcent
+t1267198973
+s321
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/StaticAnalyzer/normal/armv6/MenuScene.plist
+t1265972964
+s11076
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/StaticAnalyzer/normal/armv6/PunchMouse.plist
+t2
+s0
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/StaticAnalyzer/normal/armv6/PunchMouseAppDelegate.plist
+t1265972964
+s4654
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/StaticAnalyzer/normal/armv6/main.plist
+t1265972964
+s275
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app
+t1267198977
+s918
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app.dSYM
+t1267198973
+s102
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/AgonPackage.bundle
+t1265777310
+s170
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Chesta.wav
+t1266483984
+s95090
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Default.png
+t1266483984
+s245242
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/ElephMouse.jpg
+t1265739439
+s30249
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Entitlements.plist
+t1266587660
+s62
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Icon.png
+t1266483983
+s13394
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Info.plist
+t1266587659
+s686
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/JuOb.wav
+t1266483983
+s53648
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/PkgInfo
+t1266587659
+s8
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/PunchMouse
+t1267198972
+s973972
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/ResourceRules.plist
+t1266484100
+s485
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Uhhh.wav
+t1266483984
+s88244
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/background.jpg
+t1266483983
+s31925
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/blower.png
+t1266483984
+s8280
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/cheese.png
+t1266483984
+s6248
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/claphand.m4a
+t1266483984
+s19670
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision
+t1267198973
+s7177
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/fps_images.png
+t1266483983
+s7188
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/head.png
+t1266483984
+s8007
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/headblue.png
+t1266483984
+s7877
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/hide.wav
+t1266483984
+s21130
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/menuicon.png
+t1266483984
+s3446
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/mouseicon.png
+t1266483983
+s7593
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/pixel.png
+t1266483984
+s825
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/shaker.png
+t1266483984
+s6946
+
+N/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/libcocos2d libraries.a
+c000000004B7D072A00000000002FEA80
+t1266485034
+s3140224
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/CocosDenshion/CDAudioManager.h
+c000000004B7443B50000000000001727
+t1265910709
+s5927
+i"CocosDenshion.h"
+i<AVFoundation/AVFoundation.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/CocosDenshion/CDConfig.h
+c000000004B7443B50000000000000A93
+t1265910709
+s2707
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/CocosDenshion/CocosDenshion.h
+c000000004B7443B50000000000002093
+t1265910709
+s8339
+i<UIKit/UIKit.h>
+i<OpenAL/al.h>
+i<OpenAL/alc.h>
+i<AudioToolbox/AudioToolbox.h>
+i"CCFileUtils.h"
+i"CDConfig.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/CocosDenshion/SimpleAudioEngine.h
+c000000004B7113B10000000000000B4F
+t1265701809
+s2895
+i"CocosDenshion.h"
+i"CDAudioManager.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCAction.h
+c000000004B7443AE0000000000000E69
+t1265910702
+s3689
+i<UIKit/UIKit.h>
+i<sys/time.h>
+i"ccTypes.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCActionManager.h
+c000000004B7443AE0000000000000C0E
+t1265910702
+s3086
+i"CCAction.h"
+i"Support/ccArray.h"
+i"Support/ccHashSet.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCAtlasNode.h
+c000000004B7443AE00000000000008F4
+t1265910702
+s2292
+i"CCTextureAtlas.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCBitmapFontAtlas.h
+c000000004B7443AE0000000000001007
+t1265910702
+s4103
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccHashSet.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCCamera.h
+c000000004B7443AE0000000000000815
+t1265910702
+s2069
+i"CCNode.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCCameraAction.h
+c000000004B7443AE0000000000000676
+t1265910702
+s1654
+i"CCIntervalAction.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCCompatibility.h
+c000000004B7443AE0000000000003A7C
+t1265910702
+s14972
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCConfiguration.h
+c000000004B7443AE0000000000000425
+t1265910702
+s1061
+i<Foundation/Foundation.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCDirector.h
+c000000004B7443AE0000000000003176
+t1265910702
+s12662
+i"ccConfig.h"
+i"ccTypes.h"
+i"Support/EAGLView.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCDrawingPrimitives.h
+c000000004B7443AE00000000000007E2
+t1265910702
+s2018
+i<CoreGraphics/CGGeometry.h>
+i<objc/objc.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCEaseAction.h
+c000000004B7443AE0000000000001338
+t1265910702
+s4920
+i"CCIntervalAction.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCGrabber.h
+c000000004B7443AE00000000000002C0
+t1265910702
+s704
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<UIKit/UIKit.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCGrid.h
+c000000004B7443AE0000000000000B52
+t1265910702
+s2898
+i<UIKit/UIKit.h>
+i"CCNode.h"
+i"CCCamera.h"
+i"ccTypes.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCGrid3DAction.h
+c000000004B7443AE00000000000016A5
+t1265910702
+s5797
+i"CCGridAction.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCGridAction.h
+c000000004B7443AE000000000000116D
+t1265910702
+s4461
+i<UIKit/UIKit.h>
+i"CCIntervalAction.h"
+i"CCInstantAction.h"
+i"CCGrid.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCInstantAction.h
+c000000004B7443AE0000000000000A17
+t1265910702
+s2583
+i<UIKit/UIKit.h>
+i"CCAction.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCIntervalAction.h
+c000000004B7443AE0000000000002F70
+t1265910702
+s12144
+i"CCNode.h"
+i"CCAction.h"
+i"CCProtocols.h"
+i<sys/time.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCLabel.h
+c000000004B7443AE00000000000006E7
+t1265910702
+s1767
+i"CCTexture2D.h"
+i"CCSprite.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCLabelAtlas.h
+c000000004B7443AE0000000000000653
+t1265910702
+s1619
+i"CCAtlasNode.h"
+i"CCTextureAtlas.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCLayer.h
+c000000004B7443AE0000000000001063
+t1265910702
+s4195
+i<UIKit/UIKit.h>
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCTouchDelegateProtocol.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCMenu.h
+c000000004B7443AE00000000000007B3
+t1265910702
+s1971
+i<UIKit/UIKit.h>
+i"CCMenuItem.h"
+i"CCLayer.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCMenuItem.h
+c000000004B7443AE00000000000020AA
+t1265910702
+s8362
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCMotionStreak.h
+c000000004B7443AE00000000000007F1
+t1265910702
+s2033
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCRibbon.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCNode.h
+c000000004B7443AE0000000000003486
+t1265910702
+s13446
+i<OpenGLES/ES1/gl.h>
+i"CCAction.h"
+i"ccTypes.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCPVRTexture.h
+c000000004B7443AE0000000000000CA5
+t1265910702
+s3237
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCPageTurn3DAction.h
+c000000004B7443AE000000000000030A
+t1265910702
+s778
+i"CCGrid3DAction.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCPageTurnTransition.h
+c000000004B7443AE00000000000005BA
+t1265910702
+s1466
+i"CCTransition.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCParallaxNode.h
+c000000004B7443AE000000000000041B
+t1265910702
+s1051
+i"CCNode.h"
+i"Support/ccArray.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCParticleExamples.h
+c000000004B7443AE0000000000000591
+t1265910702
+s1425
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCParticleSystem.h
+c000000004B7443AE0000000000001F33
+t1265910702
+s7987
+i"CCProtocols.h"
+i"CCNode.h"
+i"ccTypes.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCPointParticleSystem.h
+c000000004B7443AE0000000000000393
+t1265910702
+s915
+i"CCParticleSystem.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCProtocols.h
+c000000004B7443AE0000000000000F5E
+t1265910702
+s3934
+i"ccTypes.h"
+i"CCTexture2D.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCQuadParticleSystem.h
+c000000004B7443AE000000000000045E
+t1265910702
+s1118
+i"CCParticleSystem.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCRenderTexture.h
+c000000004B7443AE0000000000000722
+t1265910702
+s1826
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCSprite.h"
+i"Support/OpenGL_Internal.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCRibbon.h
+c000000004B7443AE0000000000000C7D
+t1265910702
+s3197
+i"CCNode.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i<OpenGLES/ES1/gl.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCScene.h
+c000000004B7443AE0000000000000356
+t1265910702
+s854
+i<UIKit/UIKit.h>
+i"CCNode.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCScheduler.h
+c000000004B7443AE0000000000000A9F
+t1265910702
+s2719
+i<UIKit/UIKit.h>
+i"ccTypes.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCSprite.h
+c000000004B7443AE0000000000002738
+t1265910702
+s10040
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCSpriteFrame.h
+c000000004B7443AE0000000000000E49
+t1265910702
+s3657
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCSpriteFrameCache.h
+c000000004B7443AE0000000000000CC0
+t1265910702
+s3264
+i<Foundation/Foundation.h>
+i"CCSpriteFrame.h"
+i"CCTexture2D.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCSpriteSheet.h
+c000000004B7443AE0000000000000F8B
+t1265910702
+s3979
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccMacros.h"
+i"Support/ccArray.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCTMXLayer.h
+c000000004B7443AE0000000000001003
+t1265910702
+s4099
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCTMXObjectGroup.h
+c000000004B7443AE00000000000005CC
+t1265910702
+s1484
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCTMXTiledMap.h
+c000000004B7443AE00000000000010FD
+t1265910702
+s4349
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCTMXXMLParser.h
+c000000004B7443AE000000000000116E
+t1265910702
+s4462
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCTexture2D.h
+c000000004B7443AE00000000000022D1
+t1265910702
+s8913
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCTextureAtlas.h
+c000000004B7443AE000000000000113D
+t1265910702
+s4413
+i"CCTexture2D.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCTextureCache.h
+c000000004B7443AE0000000000000EE7
+t1265910702
+s3815
+i<Foundation/Foundation.h>
+i"CCTexture2D.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCTileMapAtlas.h
+c000000004B7443AE000000000000085A
+t1265910702
+s2138
+i"CCTextureAtlas.h"
+i"CCAtlasNode.h"
+i"Support/TGAlib.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCTiledGridAction.h
+c000000004B7443AE00000000000016DC
+t1265910702
+s5852
+i"CCGridAction.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCTouchDelegateProtocol.h
+c000000004B7443AE000000000000078B
+t1265910702
+s1931
+i<UIKit/UIKit.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCTouchDispatcher.h
+c000000004B7443AE0000000000000C8C
+t1265910702
+s3212
+i"CCTouchDelegateProtocol.h"
+i"Support/EAGLView.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCTouchHandler.h
+c000000004B7443AE0000000000000886
+t1265910702
+s2182
+i"CCTouchDelegateProtocol.h"
+i"CCTouchDispatcher.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/CCTransition.h
+c000000004B7443AE0000000000001DF5
+t1265910702
+s7669
+i"CCScene.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/Support/CCFileUtils.h
+c000000004B7443AD0000000000000251
+t1265910701
+s593
+i<Foundation/Foundation.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/Support/CGPointExtension.h
+c000000004B7443AD00000000000013C1
+t1265910701
+s5057
+i<CoreGraphics/CGGeometry.h>
+i<math.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/Support/EAGLView.h
+c000000004B7443AD000000000000175A
+t1265910701
+s5978
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/Support/OpenGL_Internal.h
+c000000004B7443AD000000000000111D
+t1265910701
+s4381
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/Support/TGAlib.h
+c000000004B7443AD0000000000000444
+t1265910701
+s1092
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/Support/ccArray.h
+c000000004B7443AD0000000000002E36
+t1265910701
+s11830
+i<Foundation/Foundation.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/Support/ccHashSet.h
+c000000004B7443AD00000000000011BE
+t1265910701
+s4542
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/ccConfig.h
+c000000004B7443AE0000000000000ED8
+t1265910702
+s3800
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/ccMacros.h
+c000000004B7443AE00000000000007E8
+t1265910702
+s2024
+i<math.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/ccTypes.h
+c000000004B7443AE00000000000010AD
+t1265910702
+s4269
+i<CoreGraphics/CGGeometry.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocos2d/cocos2d.h
+c000000004B7443AE0000000000000A26
+t1265910702
+s2598
+i"CCAction.h"
+i"CCCamera.h"
+i"CCCameraAction.h"
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCDirector.h"
+i"CCTouchDispatcher.h"
+i"CCTouchDelegateProtocol.h"
+i"CCInstantAction.h"
+i"CCIntervalAction.h"
+i"CCEaseAction.h"
+i"CCLabel.h"
+i"CCLayer.h"
+i"CCMenu.h"
+i"CCMenuItem.h"
+i"CCParticleSystem.h"
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+i"CCParticleExamples.h"
+i"CCDrawingPrimitives.h"
+i"CCScene.h"
+i"CCScheduler.h"
+i"CCSprite.h"
+i"CCSpriteFrame.h"
+i"CCSpriteSheet.h"
+i"CCSpriteFrameCache.h"
+i"CCTextureCache.h"
+i"CCTransition.h"
+i"CCTextureAtlas.h"
+i"CCLabelAtlas.h"
+i"CCAtlasNode.h"
+i"CCEaseAction.h"
+i"CCTiledGridAction.h"
+i"CCGrabber.h"
+i"CCGrid.h"
+i"CCGrid3DAction.h"
+i"CCGridAction.h"
+i"CCBitmapFontAtlas.h"
+i"CCParallaxNode.h"
+i"CCActionManager.h"
+i"CCTMXTiledMap.h"
+i"CCTMXLayer.h"
+i"CCTMXObjectGroup.h"
+i"CCTMXXMLParser.h"
+i"CCTileMapAtlas.h"
+i"CCRenderTexture.h"
+i"CCMotionStreak.h"
+i"CCPageTurn3DAction.h"
+i"CCPageTurnTransition.h"
+i"CCTexture2D.h"
+i"CCPVRTexture.h"
+i"CCTouchHandler.h"
+i"ccConfig.h"
+i"CCConfiguration.h"
+i"ccTypes.h"
+i"ccMacros.h"
+i"Support/OpenGL_Internal.h"
+i"Support/EAGLView.h"
+i"Support/CCFileUtils.h"
+i"Support/CGPointExtension.h"
+i"Support/ccArray.h"
+i"CCCompatibility.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocoslive/CLScoreServerPost.h
+c000000004B7443A40000000000000DA3
+t1265910692
+s3491
+i<UIKit/UIKit.h>
+i<CommonCrypto/CommonDigest.h>
+i"cocoslive.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocoslive/CLScoreServerRequest.h
+c000000004B7443A40000000000000DAE
+t1265910692
+s3502
+i<UIKit/UIKit.h>
+i"cocoslive.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/libs/cocoslive/cocoslive.h
+c000000004B7443A4000000000000028F
+t1265910692
+s655
+i"CLScoreServerPost.h"
+i"CLScoreServerRequest.h"
+
+N/Users/khanhnguyen/Documents/PunchMouse/main.m
+c000000004B7113B10000000000000159
+t1265701809
+s345
+i<UIKit/UIKit.h>
+
+N/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/74AD61E1-E4D5-480F-9603-BB0556330BC4.mobileprovision
+c000000004B8549B60000000000001C09
+t1267026358
+s7177
+
+N/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/A8C1944B-ADD1-49DD-82FB-8C3D4902466D.mobileprovision
+c000000004B7D05120000000000001B94
+t1266484498
+s7060
+
+N/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/CCA8ABB5-A0B0-479C-ABF1-0968F264A9A4.mobileprovision
+c000000004B7188520000000000001C13
+t1265731666
+s7187
+
+N/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/FD1C3131-087E-48C8-92ED-FA6D15B9245C.mobileprovision
+c000000004B6BC53F0000000000001B8E
+t1265354047
+s7054
+
+N/var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-alvrkeymkxmgodgbuzmeskuhojjl/PunchMouse_Prefix.pch.gch
+t1265731826
+s7700664
+
+N/var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-chbjlnkrgicvingdivmovrpmzghk/PunchMouse_Prefix.pch.pth
+t1265972964
+s1692772
+
+N/var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-csswlkkkdrsnlcfxbhdyeormmpwk/PunchMouse_Prefix.pch.gch
+t1265777312
+s7700664
+
+N/var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-cwgkuryssjxdddcxosybduzjzwjk/PunchMouse_Prefix.pch.gch
+t1265812231
+s8392860
+
+N/var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-dbbmibggvufygofmfuqhdmuqaomm/PunchMouse_Prefix.pch.gch
+t1266483984
+s7647360
+
+NResources/Info.plist
+c000000004B7D45E9000000000000038B
+t1266501097
+s907
+
+CAnalyze /Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m
+s287665764.711398
+e287665764.825608
+r1
+xAnalyze
+x/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:50:24:{50:24-50:54}: warning: method '-textFieldAtIndex:' not found (return type defaults to 'id')
+o         printf("asdf %s sdf",[[alertView textFieldAtIndex:0] text]);
+o                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:54:2:{54:2-54:18}: warning: method '-postScore' not found (return type defaults to 'id')
+o         [self postScore];
+o         ^~~~~~~~~~~~~~~~
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:75:3:{75:3-75:53}: warning: method '-addTextFieldWithValue:label:' not found (return type defaults to 'id')
+o                 [addAlert addTextFieldWithValue:@"" label:@"Name"];
+o                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:76:10:{76:10-76:39}: warning: method '-textFieldAtIndex:' not found (return type defaults to 'id')
+o                 name = [addAlert textFieldAtIndex:0];
+o                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:97:2:{97:2-97:21}: warning: method '-requestScore' not found (return type defaults to 'id')
+o         [self requestScore];
+o         ^~~~~~~~~~~~~~~~~~~
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:250:28:{250:28-250:32}: warning: incompatible type sending 'MenuScene *', expected 'id<UITableViewDataSource>'
+o         [aTableView setDataSource:self];
+o                                   ^~~~
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:251:26:{251:26-251:30}: warning: incompatible type sending 'MenuScene *', expected 'id<UITableViewDelegate>'
+o         [aTableView setDelegate:self];
+o                                 ^~~~
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:236:31: warning: Potential leak of an object allocated on line 236 and stored into 'aBarItem'
+o         UINavigationItem *aBarItem = [[UINavigationItem alloc] initWithTitle:@"Top Scores"];
+o                                      ^
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:235:26: warning: Potential leak of an object allocated on line 235 and stored into 'aBar'
+o         UINavigationBar *aBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, 320, 40)];
+o                                 ^
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:314:2: warning: local declaration of 'name' hides instance variable
+o         name = [name stringByPaddingToLength: 18 withString: @" " startingAtIndex:0];
+o         ^
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:314:10: warning: local declaration of 'name' hides instance variable
+o         name = [name stringByPaddingToLength: 18 withString: @" " startingAtIndex:0];
+o                 ^
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:316:25: warning: local declaration of 'name' hides instance variable
+o                                           indexPath.row+1, name,
+o                                                            ^
+o12 diagnostics generated.
+lSLF07#2@67"Analyze /Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287665764#287665764#0(3094"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:50:24:{50:24-50:54}: warning: method '-textFieldAtIndex:' not found (return type defaults to 'id')         printf("asdf %s sdf",[[alertView textFieldAtIndex:0] text]);                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:54:2:{54:2-54:18}: warning: method '-postScore' not found (return type defaults to 'id')         [self postScore];         ^~~~~~~~~~~~~~~~/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:75:3:{75:3-75:53}: warning: method '-addTextFieldWithValue:label:' not found (return type defaults to 'id')                 [addAlert addTextFieldWithValue:@"" label:@"Name"];                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:76:10:{76:10-76:39}: warning: method '-textFieldAtIndex:' not found (return type defaults to 'id')                 name = [addAlert textFieldAtIndex:0];                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:97:2:{97:2-97:21}: warning: method '-requestScore' not found (return type defaults to 'id')         [self requestScore];         ^~~~~~~~~~~~~~~~~~~/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:250:28:{250:28-250:32}: warning: incompatible type sending 'MenuScene *', expected 'id<UITableViewDataSource>'         [aTableView setDataSource:self];                                   ^~~~/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:251:26:{251:26-251:30}: warning: incompatible type sending 'MenuScene *', expected 'id<UITableViewDelegate>'         [aTableView setDelegate:self];                                 ^~~~/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:236:31: warning: Potential leak of an object allocated on line 236 and stored into 'aBarItem'         UINavigationItem *aBarItem = [[UINavigationItem alloc] initWithTitle:@"Top Scores"];                                      ^/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:235:26: warning: Potential leak of an object allocated on line 235 and stored into 'aBar'         UINavigationBar *aBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, 320, 40)];                                 ^/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:314:2: warning: local declaration of 'name' hides instance variable         name = [name stringByPaddingToLength: 18 withString: @" " startingAtIndex:0];         ^/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:314:10: warning: local declaration of 'name' hides instance variable         name = [name stringByPaddingToLength: 18 withString: @" " startingAtIndex:0];                 ^/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m:316:25: warning: local declaration of 'name' hides instance variable                                           indexPath.row+1, name,                                                            ^12 diagnostics generated.2(0@76"Potential leak of an object allocated on line 236 and stored into 'aBarItem'287665764#18446744073709551615#0#5(17@0"287665764#18446744073709551615#0#0(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#0#0#0#0#0"0(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#0#0#0#0#1(3@6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#222#2#222#2#6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#236#2#236#2#17@0"287665764#18446744073709551615#0#0(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#0#0#0#0#0"0(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#0#0#0#0#1(3@6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#236#2#236#2#6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#236#31#236#84#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)287665764#18446744073709551615#0#0(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#236#31#0#0#0"1(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#236#31#236#84#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"287665764#18446744073709551615#0#0(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#0#0#0#0#0"0(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#0#0#0#0#1(3@6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#236#31#236#84#6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#247#2#247#2#21@141"Object allocated on line 236 and stored into 'aBarItem' is no longer referenced after this point and has a retain count of +1 (object leaked)287665764#18446744073709551615#0#0(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#247#2#0#0#0"1(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#247#2#247#2#141"Object allocated on line 236 and stored into 'aBarItem' is no longer referenced after this point and has a retain count of +1 (object leaked)6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#247#2#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0@72"Potential leak of an object allocated on line 235 and stored into 'aBar'287665764#18446744073709551615#0#5(17@0"287665764#18446744073709551615#0#0(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#0#0#0#0#0"0(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#0#0#0#0#1(3@6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#222#2#222#2#6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#235#2#235#2#17@0"287665764#18446744073709551615#0#0(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#0#0#0#0#0"0(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#0#0#0#0#1(3@6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#235#2#235#2#6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#235#26#235#90#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)287665764#18446744073709551615#0#0(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#235#26#0#0#0"1(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#235#26#235#90#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"287665764#18446744073709551615#0#0(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#0#0#0#0#0"0(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#0#0#0#0#1(3@6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#235#26#235#90#6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#249#28#249#28#21@137"Object allocated on line 235 and stored into 'aBar' is no longer referenced after this point and has a retain count of +1 (object leaked)287665764#18446744073709551615#0#0(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#249#28#0#0#0"1(6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#249#28#249#28#137"Object allocated on line 235 and stored into 'aBar' is no longer referenced after this point and has a retain count of +1 (object leaked)6@59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m287656481#249#28#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0#0#59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m4300885448#1905"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.1.2 -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-generated-files.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-own-target-headers.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-all-target-headers.hmap -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-project-headers.hmap -Wall -F/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos -I/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/include -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources/armv6 -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources -include /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-chbjlnkrgicvingdivmovrpmzghk/PunchMouse_Prefix.pch --analyze /Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m -o /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/StaticAnalyzer/normal/armv6/MenuScene.plist0#
+
+CAnalyze /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m
+s287665764.607080
+e287665764.711226
+r1
+xAnalyze
+x/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:229:15:{229:3-229:14}: error: assigning to property with 'readonly' attribute not allowed
+o                 label.color = ccc3(0x00, 0x00, 0x00);
+o                 ~~~~~~~~~~~ ^
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:389:19:{389:19-389:48}: warning: incompatible pointer types initializing 'CCNode *', expected 'CCLabel *'
+o         CCLabel *label = [self getChildByTag:labelTag];
+o                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:508:5: warning: CCNode  may not respond to 'setString:'
+o                                 [label setString:[NSString stringWithFormat:@"Level %d  Score %.0f",gameLevel,gameScore]];
+o                                 ^
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:519:6: warning: CCNode  may not respond to 'setString:'
+o                                         [label setString:[NSString stringWithFormat:@"Level %d  Score %d",gameLevel+1,(int)gameScore]];
+o                                         ^
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:603:3: warning: CCNode  may not respond to 'setString:'
+o                 [label setString:[NSString stringWithFormat:@"Level %d  Score %.0f",gameLevel,gameScore]];
+o                 ^
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:657:3: warning: CCNode  may not respond to 'setString:'
+o                 [label setString:[NSString stringWithFormat:@"Level %d  Score %.0f",gameLevel,gameScore]];
+o                 ^
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:704:11:{704:11-704:30}: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o                 NSLog([error description]);
+o                       ^~~~~~~~~~~~~~~~~~~
+o7 diagnostics generated.
+lSLF07#2@68"Analyze /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m287665764#287665764#0(1866"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:229:15:{229:3-229:14}: error: assigning to property with 'readonly' attribute not allowed                 label.color = ccc3(0x00, 0x00, 0x00);                 ~~~~~~~~~~~ ^/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:389:19:{389:19-389:48}: warning: incompatible pointer types initializing 'CCNode *', expected 'CCLabel *'         CCLabel *label = [self getChildByTag:labelTag];                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:508:5: warning: CCNode  may not respond to 'setString:'                                 [label setString:[NSString stringWithFormat:@"Level %d  Score %.0f",gameLevel,gameScore]];                                 ^/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:519:6: warning: CCNode  may not respond to 'setString:'                                         [label setString:[NSString stringWithFormat:@"Level %d  Score %d",gameLevel+1,(int)gameScore]];                                         ^/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:603:3: warning: CCNode  may not respond to 'setString:'                 [label setString:[NSString stringWithFormat:@"Level %d  Score %.0f",gameLevel,gameScore]];                 ^/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:657:3: warning: CCNode  may not respond to 'setString:'                 [label setString:[NSString stringWithFormat:@"Level %d  Score %.0f",gameLevel,gameScore]];                 ^/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:704:11:{704:11-704:30}: warning: format string is not a string literal (potentially insecure) [-Wformat-security]                 NSLog([error description]);                       ^~~~~~~~~~~~~~~~~~~7 diagnostics generated.0(0#0#60"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m4300885448#1907"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.1.2 -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-generated-files.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-own-target-headers.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-all-target-headers.hmap -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-project-headers.hmap -Wall -F/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos -I/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/include -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources/armv6 -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources -include /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-chbjlnkrgicvingdivmovrpmzghk/PunchMouse_Prefix.pch --analyze /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m -o /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/StaticAnalyzer/normal/armv6/PunchMouse.plist0#
+
+CAnalyze /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m
+s287665764.395326
+e287665764.606816
+r1
+xAnalyze
+x/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m:80:2:{80:3-80:30}: warning: Incorrect decrement of the reference count of an object is not owned at this point by the caller
+o         [[CCDirector sharedDirector] release];
+o         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o1 diagnostic generated.
+lSLF07#2@79"Analyze /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m287665764#287665764#0(307"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m:80:2:{80:3-80:30}: warning: Incorrect decrement of the reference count of an object is not owned at this point by the caller         [[CCDirector sharedDirector] release];         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~1 diagnostic generated.1(0@96"Incorrect decrement of the reference count of an object is not owned at this point by the caller287665764#18446744073709551615#0#4(17@0"287665764#18446744073709551615#0#0(6@71"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m287490243#0#0#0#0#0"0(6@71"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m287490243#0#0#0#0#1(3@6@71"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m287490243#80#2#80#2#6@71"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m287490243#80#3#80#29#21@82"Method returns an Objective-C object with a +0 retain count (non-owning reference)287665764#18446744073709551615#0#0(6@71"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m287490243#80#3#0#0#0"1(6@71"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m287490243#80#3#80#29#82"Method returns an Objective-C object with a +0 retain count (non-owning reference)17@0"287665764#18446744073709551615#0#0(6@71"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m287490243#0#0#0#0#0"0(6@71"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m287490243#0#0#0#0#1(3@6@71"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m287490243#80#3#80#29#6@71"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m287490243#80#2#80#38#21@96"Incorrect decrement of the reference count of an object is not owned at this point by the caller287665764#18446744073709551615#0#0(6@71"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m287490243#80#2#0#0#0"1(6@71"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m287490243#80#3#80#29#96"Incorrect decrement of the reference count of an object is not owned at this point by the caller6@71"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m287490243#80#2#0#0#36"Memory (Core Foundation/Objective-C)0(11"Bad release0#0#71"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m4300885448#1929"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.1.2 -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-generated-files.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-own-target-headers.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-all-target-headers.hmap -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-project-headers.hmap -Wall -F/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos -I/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/include -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources/armv6 -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources -include /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-chbjlnkrgicvingdivmovrpmzghk/PunchMouse_Prefix.pch --analyze /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m -o /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/StaticAnalyzer/normal/armv6/PunchMouseAppDelegate.plist0#
+
+CAnalyze /Users/khanhnguyen/Documents/PunchMouse/main.m
+s287665764.332344
+e287665764.395214
+r1
+xAnalyze
+x/Users/khanhnguyen/Documents/PunchMouse/main.m
+lSLF07#2@54"Analyze /Users/khanhnguyen/Documents/PunchMouse/main.m287665764#287665764#0(0"0(0#0#46"/Users/khanhnguyen/Documents/PunchMouse/main.m4300885448#1887"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.1.2 -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-generated-files.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-own-target-headers.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-all-target-headers.hmap -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-project-headers.hmap -Wall -F/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos -I/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/include -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources/armv6 -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources -include /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-chbjlnkrgicvingdivmovrpmzghk/PunchMouse_Prefix.pch --analyze /Users/khanhnguyen/Documents/PunchMouse/main.m -o /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/StaticAnalyzer/normal/armv6/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies288891765#288891765#0(272"[BWARN]Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Le Kim Khanh Nguyen (NBBVZ4SGN5)', 'iPhone Developer: Minh Thanh Nguyen (96P4S8C26L)' -- 'iPhone Developer: Le Kim Khanh Nguyen (NBBVZ4SGN5)' will be used.1(22@264"Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Le Kim Khanh Nguyen (NBBVZ4SGN5)', 'iPhone Developer: Minh Thanh Nguyen (96P4S8C26L)' -- 'iPhone Developer: Le Kim Khanh Nguyen (NBBVZ4SGN5)' will be used.288891765#18446744073709551615#0#0(1@0"0(0#1#0"4300885448#0"0#
+
+CCodeSign /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app
+s288891773.716490
+e288891777.031630
+r1
+xCodeSign
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app
+lSLF07#2@46"CodeSign build/Release-iphoneos/PunchMouse.app288891773#288891777#0(0"0(0#0#77"/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app4300885448#678"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Le Kim Khanh Nguyen (NBBVZ4SGN5)" --resource-rules=/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/ResourceRules.plist --entitlements /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse.xcent /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app0#
+
+CCompileC build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/MenuScene.o /Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s288891770.391080
+e288891770.762215
+r1
+xCompileC
+xbuild/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/MenuScene.o
+x/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m288891770#288891770#0(0"0(0#0#59"/Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m4300885448#1861"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1.2 -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-generated-files.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-own-target-headers.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-all-target-headers.hmap -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-project-headers.hmap -Wall -F/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos -I/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/include -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources/armv6 -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources -include /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-alvrkeymkxmgodgbuzmeskuhojjl/PunchMouse_Prefix.pch -c /Users/khanhnguyen/Documents/PunchMouse/Classes/MenuScene.m -o /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/MenuScene.o0#
+
+CCompileC build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/PunchMouse.o /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s288891768.764826
+e288891770.390764
+r1
+xCompileC
+xbuild/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/PunchMouse.o
+x/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m: In function '-[PunchMouse markTimePlayEnded]':
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:411: warning: initialization from distinct Objective-C type
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m: In function '-[PunchMouse ccTouchesBegan:withEvent:]':
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:548: warning: 'CCNode' may not respond to '-setString:'
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:548: warning: (Messages without a matching method signature
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:548: warning: will be assumed to return 'id' and accept
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:548: warning: '...' as arguments.)
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m: In function '-[PunchMouse accelerometer:didAccelerate:]':
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:626: warning: 'CCNode' may not respond to '-setString:'
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m: In function '-[PunchMouse endBlowing]':
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:664: warning: 'CCNode' may not respond to '-setString:'
+lSLF07#2@68"Compile /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m288891768#288891770#0(1254"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m: In function '-[PunchMouse markTimePlayEnded]':/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:411: warning: initialization from distinct Objective-C type/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m: In function '-[PunchMouse ccTouchesBegan:withEvent:]':/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:548: warning: 'CCNode' may not respond to '-setString:'/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:548: warning: (Messages without a matching method signature/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:548: warning: will be assumed to return 'id' and accept/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:548: warning: '...' as arguments.)/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m: In function '-[PunchMouse accelerometer:didAccelerate:]':/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:626: warning: 'CCNode' may not respond to '-setString:'/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m: In function '-[PunchMouse endBlowing]':/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m:664: warning: 'CCNode' may not respond to '-setString:'5(22@45"Initialization from distinct Objective-C type288891768#109#121#0(6@60"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m288559607#411#0#411#0#0"0(22@41"'CCNode' may not respond to '-setString:'288891769#347#117#0(6@60"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m288559607#548#0#548#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)288891769#464#121#0(6@60"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m288559607#548#0#548#0#0"0(22@41"'CCNode' may not respond to '-setString:'288891769#918#117#0(6@60"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m288559607#626#0#626#0#26"'*' may not respond to '*'0(22@41"'CCNode' may not respond to '-setString:'288891769#1137#117#0(6@60"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m288559607#664#0#664#0#26"'*' may not respond to '*'0(0#0#60"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m4300885448#1863"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1.2 -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-generated-files.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-own-target-headers.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-all-target-headers.hmap -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-project-headers.hmap -Wall -F/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos -I/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/include -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources/armv6 -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources -include /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-alvrkeymkxmgodgbuzmeskuhojjl/PunchMouse_Prefix.pch -c /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.m -o /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/PunchMouse.o0#
+
+CCompileC build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/PunchMouse.o /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s287505032.014124
+e287505032.775860
+r1
+xCompileC
+xbuild/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/PunchMouse.o
+x/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm: In function 'void -[PunchMouse ccTouchesBegan:withEvent:](PunchMouse*, objc_selector*, NSSet*, UIEvent*)':
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm:385: warning: 'CCNode' may not respond to '-setString:'
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm:385: warning: (Messages without a matching method signature
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm:385: warning: will be assumed to return 'id' and accept
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm:385: warning: '...' as arguments.)
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm:393: warning: 'CCNode' may not respond to '-setString:'
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm: In function 'void -[PunchMouse accelerometer:didAccelerate:](PunchMouse*, objc_selector*, UIAccelerometer*, UIAcceleration*)':
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm:480: warning: 'CCNode' may not respond to '-setString:'
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm: In function 'void -[PunchMouse endBlowing](PunchMouse*, objc_selector*)':
+o/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm:523: warning: 'CCNode' may not respond to '-setString:'
+lSLF07#2@69"Compile /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm287505032#287505032#0(1306"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm: In function 'void -[PunchMouse ccTouchesBegan:withEvent:](PunchMouse*, objc_selector*, NSSet*, UIEvent*)':/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm:385: warning: 'CCNode' may not respond to '-setString:'/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm:385: warning: (Messages without a matching method signature/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm:385: warning: will be assumed to return 'id' and accept/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm:385: warning: '...' as arguments.)/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm:393: warning: 'CCNode' may not respond to '-setString:'/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm: In function 'void -[PunchMouse accelerometer:didAccelerate:](PunchMouse*, objc_selector*, UIAccelerometer*, UIAcceleration*)':/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm:480: warning: 'CCNode' may not respond to '-setString:'/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm: In function 'void -[PunchMouse endBlowing](PunchMouse*, objc_selector*)':/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm:523: warning: 'CCNode' may not respond to '-setString:'5(22@41"'CCNode' may not respond to '-setString:'287505032#170#118#0(6@61"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm287504659#385#0#385#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)287505032#288#122#0(6@61"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm287504659#385#0#385#0#0"0(22@41"'CCNode' may not respond to '-setString:'287505032#625#118#0(6@61"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm287504659#393#0#393#0#26"'*' may not respond to '*'0(22@41"'CCNode' may not respond to '-setString:'287505032#933#118#0(6@61"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm287504659#480#0#480#0#26"'*' may not respond to '*'0(22@41"'CCNode' may not respond to '-setString:'287505032#1188#118#0(6@61"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm287504659#523#0#523#0#26"'*' may not respond to '*'0(0#0#61"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm4300885448#1885"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1.2 -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-generated-files.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-own-target-headers.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-all-target-headers.hmap -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-project-headers.hmap -Wall -F/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos -I/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/include -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources/armv6 -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources -include /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-cwgkuryssjxdddcxosybduzjzwjk/PunchMouse_Prefix.pch -c /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouse.mm -o /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/PunchMouse.o0#
+
+CCompileC build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/PunchMouseAppDelegate.o /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s288891765.748468
+e288891768.764615
+r1
+xCompileC
+xbuild/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/PunchMouseAppDelegate.o
+x/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m288891765#288891768#0(0"0(0#0#71"/Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m4300885448#1885"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1.2 -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-generated-files.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-own-target-headers.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-all-target-headers.hmap -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-project-headers.hmap -Wall -F/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos -I/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/include -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources/armv6 -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources -include /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-alvrkeymkxmgodgbuzmeskuhojjl/PunchMouse_Prefix.pch -c /Users/khanhnguyen/Documents/PunchMouse/Classes/PunchMouseAppDelegate.m -o /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/PunchMouseAppDelegate.o0#
+
+CCompileC build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/main.o /Users/khanhnguyen/Documents/PunchMouse/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s288176900.579031
+e288176901.070354
+r1
+xCompileC
+xbuild/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/main.o
+x/Users/khanhnguyen/Documents/PunchMouse/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/khanhnguyen/Documents/PunchMouse/main.m288176900#288176901#0(0"0(0#0#46"/Users/khanhnguyen/Documents/PunchMouse/main.m4300885448#1843"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1.2 -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-generated-files.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-own-target-headers.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-all-target-headers.hmap -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-project-headers.hmap -Wall -F/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos -I/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/include -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources/armv6 -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources -include /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-alvrkeymkxmgodgbuzmeskuhojjl/PunchMouse_Prefix.pch -c /Users/khanhnguyen/Documents/PunchMouse/main.m -o /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/main.o0#
+
+CCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Default.png Resources/Default.png
+s288176783.170242
+e288176784.399891
+r1
+xCopyPNGFile
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Default.png
+xResources/Default.png
+lSLF07#2@83"CopyPNGFile build/Release-iphoneos/PunchMouse.app/Default.png Resources/Default.png288176783#288176784#0(0"0(0#0#61"/Users/khanhnguyen/Documents/PunchMouse/Resources/Default.png4300885448#580"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/khanhnguyen/Documents/PunchMouse/Resources/Default.png /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Default.png0#
+
+CCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Icon.png Resources/Icon.png
+s288176783.839761
+e288176783.896212
+r1
+xCopyPNGFile
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Icon.png
+xResources/Icon.png
+lSLF07#2@77"CopyPNGFile build/Release-iphoneos/PunchMouse.app/Icon.png Resources/Icon.png288176783#288176783#0(0"0(0#0#58"/Users/khanhnguyen/Documents/PunchMouse/Resources/Icon.png4300885448#574"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/khanhnguyen/Documents/PunchMouse/Resources/Icon.png /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Icon.png0#
+
+CCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/blower.png Resources/blower.png
+s288176784.172588
+e288176784.217238
+r1
+xCopyPNGFile
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/blower.png
+xResources/blower.png
+lSLF07#2@81"CopyPNGFile build/Release-iphoneos/PunchMouse.app/blower.png Resources/blower.png288176784#288176784#0(0"0(0#0#60"/Users/khanhnguyen/Documents/PunchMouse/Resources/blower.png4300885448#578"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/khanhnguyen/Documents/PunchMouse/Resources/blower.png /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/blower.png0#
+
+CCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/cheese.png Resources/cheese.png
+s288176784.068099
+e288176784.120243
+r1
+xCopyPNGFile
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/cheese.png
+xResources/cheese.png
+lSLF07#2@81"CopyPNGFile build/Release-iphoneos/PunchMouse.app/cheese.png Resources/cheese.png288176784#288176784#0(0"0(0#0#60"/Users/khanhnguyen/Documents/PunchMouse/Resources/cheese.png4300885448#578"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/khanhnguyen/Documents/PunchMouse/Resources/cheese.png /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/cheese.png0#
+
+CCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/fps_images.png Resources/fps_images.png
+s288176783.171412
+e288176783.839645
+r1
+xCopyPNGFile
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/fps_images.png
+xResources/fps_images.png
+lSLF07#2@89"CopyPNGFile build/Release-iphoneos/PunchMouse.app/fps_images.png Resources/fps_images.png288176783#288176783#0(0"0(0#0#64"/Users/khanhnguyen/Documents/PunchMouse/Resources/fps_images.png4300885448#586"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/khanhnguyen/Documents/PunchMouse/Resources/fps_images.png /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/fps_images.png0#
+
+CCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/head.png Resources/head.png
+s288176783.981611
+e288176784.067999
+r1
+xCopyPNGFile
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/head.png
+xResources/head.png
+lSLF07#2@77"CopyPNGFile build/Release-iphoneos/PunchMouse.app/head.png Resources/head.png288176783#288176784#0(0"0(0#0#58"/Users/khanhnguyen/Documents/PunchMouse/Resources/head.png4300885448#574"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/khanhnguyen/Documents/PunchMouse/Resources/head.png /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/head.png0#
+
+CCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/headblue.png Resources/headblue.png
+s288176784.304240
+e288176784.365995
+r1
+xCopyPNGFile
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/headblue.png
+xResources/headblue.png
+lSLF07#2@85"CopyPNGFile build/Release-iphoneos/PunchMouse.app/headblue.png Resources/headblue.png288176784#288176784#0(0"0(0#0#62"/Users/khanhnguyen/Documents/PunchMouse/Resources/headblue.png4300885448#582"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/khanhnguyen/Documents/PunchMouse/Resources/headblue.png /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/headblue.png0#
+
+CCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/menuicon.png Resources/menuicon.png
+s288176784.256446
+e288176784.301378
+r1
+xCopyPNGFile
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/menuicon.png
+xResources/menuicon.png
+lSLF07#2@85"CopyPNGFile build/Release-iphoneos/PunchMouse.app/menuicon.png Resources/menuicon.png288176784#288176784#0(0"0(0#0#62"/Users/khanhnguyen/Documents/PunchMouse/Resources/menuicon.png4300885448#582"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/khanhnguyen/Documents/PunchMouse/Resources/menuicon.png /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/menuicon.png0#
+
+CCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/mouseicon.png Resources/mouseicon.png
+s288176783.896314
+e288176783.972578
+r1
+xCopyPNGFile
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/mouseicon.png
+xResources/mouseicon.png
+lSLF07#2@87"CopyPNGFile build/Release-iphoneos/PunchMouse.app/mouseicon.png Resources/mouseicon.png288176783#288176783#0(0"0(0#0#63"/Users/khanhnguyen/Documents/PunchMouse/Resources/mouseicon.png4300885448#584"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/khanhnguyen/Documents/PunchMouse/Resources/mouseicon.png /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/mouseicon.png0#
+
+CCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/pixel.png Resources/pixel.png
+s288176784.217349
+e288176784.255544
+r1
+xCopyPNGFile
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/pixel.png
+xResources/pixel.png
+lSLF07#2@79"CopyPNGFile build/Release-iphoneos/PunchMouse.app/pixel.png Resources/pixel.png288176784#288176784#0(0"0(0#0#59"/Users/khanhnguyen/Documents/PunchMouse/Resources/pixel.png4300885448#576"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/khanhnguyen/Documents/PunchMouse/Resources/pixel.png /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/pixel.png0#
+
+CCopyPNGFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/shaker.png Resources/shaker.png
+s288176784.121167
+e288176784.172323
+r1
+xCopyPNGFile
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/shaker.png
+xResources/shaker.png
+lSLF07#2@81"CopyPNGFile build/Release-iphoneos/PunchMouse.app/shaker.png Resources/shaker.png288176784#288176784#0(0"0(0#0#60"/Users/khanhnguyen/Documents/PunchMouse/Resources/shaker.png4300885448#578"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/khanhnguyen/Documents/PunchMouse/Resources/shaker.png /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/shaker.png0#
+
+CCopyPlistFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Entitlements.plist Entitlements.plist
+s288280459.688775
+e288280460.195337
+r1
+xCopyPlistFile
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Entitlements.plist
+xEntitlements.plist
+lSLF07#2@23"Copy Entitlements.plist288280459#288280460#0(0"0(0#0#58"/Users/khanhnguyen/Documents/PunchMouse/Entitlements.plist4300885448#386"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Entitlements.plist --outdir /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app0#
+
+CCpResource build/Release-iphoneos/PunchMouse.app/AgonPackage.bundle Resources/AgonPackage.bundle
+s287470110.264999
+e287470110.992832
+r1
+xCpResource
+xbuild/Release-iphoneos/PunchMouse.app/AgonPackage.bundle
+xResources/AgonPackage.bundle
+lSLF07#2@33"Copy Resources/AgonPackage.bundle287470110#287470110#0(0"0(0#0#68"/Users/khanhnguyen/Documents/PunchMouse/Resources/AgonPackage.bundle4300885448#487"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/khanhnguyen/Documents/PunchMouse/Resources/AgonPackage.bundle /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app0#
+
+CCpResource build/Release-iphoneos/PunchMouse.app/Chesta.wav Resources/Chesta.wav
+s288176784.120353
+e288176784.142563
+r1
+xCpResource
+xbuild/Release-iphoneos/PunchMouse.app/Chesta.wav
+xResources/Chesta.wav
+lSLF07#2@25"Copy Resources/Chesta.wav288176784#288176784#0(0"0(0#0#60"/Users/khanhnguyen/Documents/PunchMouse/Resources/Chesta.wav4300885448#479"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/khanhnguyen/Documents/PunchMouse/Resources/Chesta.wav /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app0#
+
+CCpResource build/Release-iphoneos/PunchMouse.app/ElephMouse.jpg Resources/ElephMouse.jpg
+s287432239.805542
+e287432239.953145
+r1
+xCpResource
+xbuild/Release-iphoneos/PunchMouse.app/ElephMouse.jpg
+xResources/ElephMouse.jpg
+lSLF07#2@29"Copy Resources/ElephMouse.jpg287432239#287432239#0(0"0(0#0#64"/Users/khanhnguyen/Documents/PunchMouse/Resources/ElephMouse.jpg4300885448#483"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/khanhnguyen/Documents/PunchMouse/Resources/ElephMouse.jpg /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app0#
+
+CCpResource build/Release-iphoneos/PunchMouse.app/JuOb.wav Resources/JuOb.wav
+s288176783.972683
+e288176784.053942
+r1
+xCpResource
+xbuild/Release-iphoneos/PunchMouse.app/JuOb.wav
+xResources/JuOb.wav
+lSLF07#2@23"Copy Resources/JuOb.wav288176783#288176784#0(0"0(0#0#58"/Users/khanhnguyen/Documents/PunchMouse/Resources/JuOb.wav4300885448#477"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/khanhnguyen/Documents/PunchMouse/Resources/JuOb.wav /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app0#
+
+CCpResource build/Release-iphoneos/PunchMouse.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+s288176783.109680
+e288176783.169948
+r1
+xCpResource
+xbuild/Release-iphoneos/PunchMouse.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist288176783#288176783#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist4300885448#508"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app0#
+
+CCpResource build/Release-iphoneos/PunchMouse.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+s288176900.539614
+e288176900.577322
+r1
+xCpResource
+xbuild/Release-iphoneos/PunchMouse.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist288176900#288176900#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist4300885448#510"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app0#
+
+CCpResource build/Release-iphoneos/PunchMouse.app/Uhhh.wav Resources/Uhhh.wav
+s288176783.974048
+e288176784.065181
+r1
+xCpResource
+xbuild/Release-iphoneos/PunchMouse.app/Uhhh.wav
+xResources/Uhhh.wav
+lSLF07#2@23"Copy Resources/Uhhh.wav288176783#288176784#0(0"0(0#0#58"/Users/khanhnguyen/Documents/PunchMouse/Resources/Uhhh.wav4300885448#477"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/khanhnguyen/Documents/PunchMouse/Resources/Uhhh.wav /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app0#
+
+CCpResource build/Release-iphoneos/PunchMouse.app/background.jpg Resources/background.jpg
+s288176783.979672
+e288176784.007272
+r1
+xCpResource
+xbuild/Release-iphoneos/PunchMouse.app/background.jpg
+xResources/background.jpg
+lSLF07#2@29"Copy Resources/background.jpg288176783#288176784#0(0"0(0#0#64"/Users/khanhnguyen/Documents/PunchMouse/Resources/background.jpg4300885448#483"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/khanhnguyen/Documents/PunchMouse/Resources/background.jpg /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app0#
+
+CCpResource build/Release-iphoneos/PunchMouse.app/claphand.m4a Resources/claphand.m4a
+s288176784.301507
+e288176784.330982
+r1
+xCpResource
+xbuild/Release-iphoneos/PunchMouse.app/claphand.m4a
+xResources/claphand.m4a
+lSLF07#2@27"Copy Resources/claphand.m4a288176784#288176784#0(0"0(0#0#62"/Users/khanhnguyen/Documents/PunchMouse/Resources/claphand.m4a4300885448#481"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/khanhnguyen/Documents/PunchMouse/Resources/claphand.m4a /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app0#
+
+CCpResource build/Release-iphoneos/PunchMouse.app/hide.wav Resources/hide.wav
+s288176784.255639
+e288176784.272373
+r1
+xCpResource
+xbuild/Release-iphoneos/PunchMouse.app/hide.wav
+xResources/hide.wav
+lSLF07#2@23"Copy Resources/hide.wav288176784#288176784#0(0"0(0#0#58"/Users/khanhnguyen/Documents/PunchMouse/Resources/hide.wav4300885448#477"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/khanhnguyen/Documents/PunchMouse/Resources/hide.wav /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app0#
+
+CGenerateDSYMFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app.dSYM /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/PunchMouse
+s288891772.436332
+e288891773.267551
+r1
+xGenerateDSYMFile
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app.dSYM
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/PunchMouse
+lSLF07#2@108"GenerateDSYMFile build/Release-iphoneos/PunchMouse.app.dSYM build/Release-iphoneos/PunchMouse.app/PunchMouse288891772#288891773#0(0"0(0#0#88"/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/PunchMouse4300885448#378"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/PunchMouse -o /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app.dSYM0#
+
+CLd /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/PunchMouse normal armv6
+s288891770.762314
+e288891772.436189
+r1
+xLd
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/PunchMouse
+xnormal
+xarmv6
+lSLF07#2@93"Link /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/PunchMouse288891770#288891772#0(0"0(0#0#0"4300885448#1073"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos -F/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos -filelist /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/Objects-normal/armv6/PunchMouse.LinkFileList -mmacosx-version-min=10.5 -dead_strip -all_load -ObjC -miphoneos-version-min=3.1.2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/PunchMouse0#
+
+CProcessInfoPlistFile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Info.plist Resources/Info.plist
+s288280459.667684
+e288280459.687618
+r1
+xProcessInfoPlistFile
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Info.plist
+xResources/Info.plist
+lSLF07#2@28"Process Resources/Info.plist288280459#288280459#0(0"0(0#0#60"/Users/khanhnguyen/Documents/PunchMouse/Resources/Info.plist4300885448#583"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/ResourceRules.plist -o /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/Info.plist0#
+
+CProcessPCH /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-alvrkeymkxmgodgbuzmeskuhojjl/PunchMouse_Prefix.pch.gch PunchMouse_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s287424626.042449
+e287424626.843511
+r1
+xProcessPCH
+x/var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-alvrkeymkxmgodgbuzmeskuhojjl/PunchMouse_Prefix.pch.gch
+xPunchMouse_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile PunchMouse_Prefix.pch287424626#287424626#0(0"0(0#0#61"/Users/khanhnguyen/Documents/PunchMouse/PunchMouse_Prefix.pch4300885448#1735"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1.2 -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-generated-files.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-own-target-headers.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-all-target-headers.hmap -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-project-headers.hmap -Wall -F/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos -I/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/include -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources/armv6 -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources -c /Users/khanhnguyen/Documents/PunchMouse/PunchMouse_Prefix.pch -o /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-alvrkeymkxmgodgbuzmeskuhojjl/PunchMouse_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-chbjlnkrgicvingdivmovrpmzghk/PunchMouse_Prefix.pch.pth PunchMouse_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s287665763.896957
+e287665764.126164
+r1
+xProcessPCH
+x/var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-chbjlnkrgicvingdivmovrpmzghk/PunchMouse_Prefix.pch.pth
+xPunchMouse_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@32"Precompile PunchMouse_Prefix.pch287665763#287665764#0(0"0(0#0#61"/Users/khanhnguyen/Documents/PunchMouse/PunchMouse_Prefix.pch4300885448#1761"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -miphoneos-version-min=3.1.2 -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-generated-files.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-own-target-headers.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-all-target-headers.hmap -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-project-headers.hmap -Wall -F/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos -I/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/include -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources/armv6 -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources -c /Users/khanhnguyen/Documents/PunchMouse/PunchMouse_Prefix.pch -o /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-chbjlnkrgicvingdivmovrpmzghk/PunchMouse_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-csswlkkkdrsnlcfxbhdyeormmpwk/PunchMouse_Prefix.pch.gch PunchMouse_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s287470111.493539
+e287470112.291370
+r1
+xProcessPCH
+x/var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-csswlkkkdrsnlcfxbhdyeormmpwk/PunchMouse_Prefix.pch.gch
+xPunchMouse_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile PunchMouse_Prefix.pch287470111#287470112#0(0"0(0#0#61"/Users/khanhnguyen/Documents/PunchMouse/PunchMouse_Prefix.pch4300885448#1766"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1.2 -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-generated-files.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-own-target-headers.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-all-target-headers.hmap -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-project-headers.hmap -Wall -F/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos -iquotePATH_TO_LIBAGON/include -I/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/include -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources/armv6 -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources -c /Users/khanhnguyen/Documents/PunchMouse/PunchMouse_Prefix.pch -o /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-csswlkkkdrsnlcfxbhdyeormmpwk/PunchMouse_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-dbbmibggvufygofmfuqhdmuqaomm/PunchMouse_Prefix.pch.gch PunchMouse_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s288176784.400049
+e288176785.006929
+r1
+xProcessPCH
+x/var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-dbbmibggvufygofmfuqhdmuqaomm/PunchMouse_Prefix.pch.gch
+xPunchMouse_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile PunchMouse_Prefix.pch288176784#288176785#0(0"0(0#0#61"/Users/khanhnguyen/Documents/PunchMouse/PunchMouse_Prefix.pch4300885448#1731"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-generated-files.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-own-target-headers.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-all-target-headers.hmap -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-project-headers.hmap -Wall -F/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos -I/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/include -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources/armv6 -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources -c /Users/khanhnguyen/Documents/PunchMouse/PunchMouse_Prefix.pch -o /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-dbbmibggvufygofmfuqhdmuqaomm/PunchMouse_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-cwgkuryssjxdddcxosybduzjzwjk/PunchMouse_Prefix.pch.gch PunchMouse_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s287505029.399335
+e287505032.013744
+r1
+xProcessPCH++
+x/var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-cwgkuryssjxdddcxosybduzjzwjk/PunchMouse_Prefix.pch.gch
+xPunchMouse_Prefix.pch
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile PunchMouse_Prefix.pch287505029#287505032#0(0"0(0#0#61"/Users/khanhnguyen/Documents/PunchMouse/PunchMouse_Prefix.pch4300885448#1756"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.1.2 -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-generated-files.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-own-target-headers.hmap -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-all-target-headers.hmap -iquote /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse-project-headers.hmap -Wall -F/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos -I/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/include -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources/armv6 -I/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/DerivedSources -c /Users/khanhnguyen/Documents/PunchMouse/PunchMouse_Prefix.pch -o /var/folders/u2/u2etg019HUe6RGtQVIIV9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PunchMouse_Prefix-cwgkuryssjxdddcxosybduzjzwjk/PunchMouse_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/74AD61E1-E4D5-480F-9603-BB0556330BC4.mobileprovision" /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision
+s288891773.267672
+e288891773.333601
+r1
+xProcessProductPackaging
+x/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/74AD61E1-E4D5-480F-9603-BB0556330BC4.mobileprovision
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision
+lSLF07#2@203"ProcessProductPackaging "/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/74AD61E1-E4D5-480F-9603-BB0556330BC4.mobileprovision" build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision288891773#288891773#0(0"0(0#0#102"/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision4300885448#436"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/74AD61E1-E4D5-480F-9603-BB0556330BC4.mobileprovision" -o /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/A8C1944B-ADD1-49DD-82FB-8C3D4902466D.mobileprovision" /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision
+s288178208.862745
+e288178208.892281
+r1
+xProcessProductPackaging
+x/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/A8C1944B-ADD1-49DD-82FB-8C3D4902466D.mobileprovision
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision
+lSLF07#2@203"ProcessProductPackaging "/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/A8C1944B-ADD1-49DD-82FB-8C3D4902466D.mobileprovision" build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision288178208#288178208#0(0"0(0#0#102"/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision4300885448#436"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/A8C1944B-ADD1-49DD-82FB-8C3D4902466D.mobileprovision" -o /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/CCA8ABB5-A0B0-479C-ABF1-0968F264A9A4.mobileprovision" /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision
+s288280486.778470
+e288280486.803007
+r1
+xProcessProductPackaging
+x/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/CCA8ABB5-A0B0-479C-ABF1-0968F264A9A4.mobileprovision
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision
+lSLF07#2@203"ProcessProductPackaging "/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/CCA8ABB5-A0B0-479C-ABF1-0968F264A9A4.mobileprovision" build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision288280486#288280486#0(0"0(0#0#102"/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision4300885448#436"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/CCA8ABB5-A0B0-479C-ABF1-0968F264A9A4.mobileprovision" -o /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/khanhnguyen/Library/MobileDevice/Provisioning Profiles/FD1C3131-087E-48C8-92ED-FA6D15B9245C.mobileprovision" /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse.xcent
+s288176787.539575
+e288176787.706171
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist
+x/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse.xcent
+lSLF07#2@186"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse.xcent288176787#288176787#0(0"0(0#0#113"/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse.xcent4300885448#445"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse.xcent0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse.xcent
+s288891773.438734
+e288891773.716369
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+x/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse.xcent
+lSLF07#2@188"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse.xcent288891773#288891773#0(0"0(0#0#113"/Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse.xcent4300885448#447"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/khanhnguyen/Documents/PunchMouse/build/PunchMouse.build/Release-iphoneos/PunchMouse.build/PunchMouse.xcent0#
+
+CTouch /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app
+s288891773.333810
+e288891773.438605
+r1
+xTouch
+x/Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app
+lSLF07#2@83"Touch /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app288891773#288891773#0(0"0(0#0#0"4300885448#271"    cd /Users/khanhnguyen/Documents/PunchMouse    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/khanhnguyen/Documents/PunchMouse/build/Release-iphoneos/PunchMouse.app0#
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="claphand_data" version="1.3.0" audacityversion="1.3.11-beta" sel0="0.0000000000" sel1="1.0681179138" vpos="0" h="0.0000000000" zoom="404.4497282609" rate="44100">
+	<tags>
+		<tag name="id3v2" value="1"/>
+		<tag name="ALBUM" value="Khanh Nguyen&apos;s Album&#x0002;"/>
+		<tag name="TITLE" value="claphand"/>
+		<tag name="BPM (beats per minute)" value="120"/>
+		<tag name="COMMENTS" value=" 00000000 00000210 00000A2C 000000000000AC44 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000"/>
+		<tag name="Software" value="GarageBand 5.1"/>
+		<tag name="ARTIST" value="Khanh Nguyen4"/>
+		<tag name="Author" value="Khanh Nguyen"/>
+		<tag name="YEAR" value="2010-02-17T15:06"/>
+		<tag name="Composer" value="Khanh Nguyen"/>
+	</tags>
+	<wavetrack name="claphand 1" channel="2" linked="0" mute="0" solo="1" height="150" minimized="0" rate="44100" gain="1" pan="0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="524288" sampleformat="131073" numsamples="47104">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000eb3.au" len="47104" min="-1" max="0.999969" rms="0.182441"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
